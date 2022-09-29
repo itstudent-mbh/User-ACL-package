@@ -1,0 +1,36 @@
+{
+    "name": "mbhanife/laravel-users-acl",
+    "description": "Laravel users Access list controller",
+
+    "authors": [
+        {
+            "name": "mbhanife",
+            "email": "itstudent.mbh@gmail.com"
+        }
+    ],
+
+
+    "require": {
+        "illuminate/support": "^9.0",
+        "illuminate/database": "^9.0"
+    },
+
+
+    "autoload": {
+        "psr-4": {
+            "Mbhanife\\LaravelUsersAcl\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mbhanife\\LaravelUsersAcl\\Providers\\AclServiceProvider",
+                "Mbhanife\\LaravelUsersAcl\\Providers\\RolesPermissionsServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Mbhanife\\LaravelUsersAcl\\Facade\\AclFacade"
+            }
+        }
+    }
+}
