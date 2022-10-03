@@ -11,8 +11,8 @@
 
 
     "require": {
-        "illuminate/support": "^9.0",
-        "illuminate/database": "^9.0"
+        "illuminate/support": "^8.0",
+        "illuminate/database": "^8.0"
     },
 
 
@@ -27,10 +27,7 @@
             "providers": [
                 "Mbhanife\\LaravelUsersAcl\\Providers\\AclServiceProvider",
                 "Mbhanife\\LaravelUsersAcl\\Providers\\RolesPermissionsServiceProvider"
-            ],
-            "aliases": {
-                "Debugbar": "Mbhanife\\LaravelUsersAcl\\Facade\\AclFacade"
-            }
+            ]
         }
     }
 }
