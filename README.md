@@ -2,8 +2,8 @@
 User access Controller package for laravel
 
 
-#Install 
+# Install 
 composer require mbhanife/laravel-users-acl
 
-#Use
+# Use
 Add ' use HasRole ' to user model  
