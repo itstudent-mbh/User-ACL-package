@@ -30,7 +30,7 @@ trait HasPermissions
     }
 
 
-    public function givePermission( ... $permissions)
+    public function givePermissions( ... $permissions)
     {
         $permissions = $this->getAllPermissions($permissions);
 
