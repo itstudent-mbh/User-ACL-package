@@ -1,7 +1,7 @@
 {
     "name": "mbhanife/laravel-users-acl",
     "description": "Laravel users Access list controller",
-
+    "license": "GNU",
     "authors": [
         {
             "name": "mbhanife",
